@@ -5,20 +5,20 @@
 #include <iostream>
 
 void task1() {
-    int size = sh::math::GetRandomInt(1, 20), max = 100, * arr = sh::GetRandArray(size, max);
+    int size = sh::math::GetRandomInt(1, 20), max = 100, * arr = sh::arr::GetRandArray(size, max);
 
-    sh::pr::PrintArray(arr);
+    sh::pr::PrintArrayWithSize(arr);
 
     delete[] arr;
 }
 
 void task2() {
-    int rows = sh::math::GetRandomInt(1, 20), max = 20, **matrix = sh::GetRandMatrix(rows, max);
+    int rows = sh::math::GetRandomInt(1, 20), max = 20, **matrix = sh::arr::GetRandMatrixRandRows(rows, max);
 
     std::cout << rows << " rows" << std::endl;
-    sh::pr::PrintMatrix(matrix, rows);
+    sh::pr::PrintMatrixWithSize(matrix, rows);
 
-    sh::FreeMatrix(matrix, rows);
+    sh::arr::FreeMatrix(matrix, rows);
 }
 
 int main() {
