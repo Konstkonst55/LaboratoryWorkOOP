@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\model">
+      <UniqueIdentifier>{96492747-41e0-4fa3-a014-c109077a6621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\model\animal">
+      <UniqueIdentifier>{82bd9199-d680-4973-b776-2cc11f1274b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\model">
+      <UniqueIdentifier>{1b7c5e28-354d-4d3b-856f-c727752b0940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\model\animal">
+      <UniqueIdentifier>{0a6f34c2-57ed-4af0-8cb8-565ae489ee8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\view">
+      <UniqueIdentifier>{fd4f707a-94a3-4d99-9f8f-77f58f6dfe61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\view">
+      <UniqueIdentifier>{101afe5b-bfd5-4723-92af-d33aeb654837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\data">
+      <UniqueIdentifier>{fc57b95b-888a-416a-b05a-7d9f8976e22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\data">
+      <UniqueIdentifier>{7b673f0d-8ce6-4b49-bfa9-4b2c5da3b25c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="animal.cpp">
+      <Filter>Исходные файлы\model\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="fox.cpp">
+      <Filter>Исходные файлы\model\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="rabbit.cpp">
+      <Filter>Исходные файлы\model\animal</Filter>
+    </ClCompile>
+    <ClCompile Include="game_field.cpp">
+      <Filter>Исходные файлы\view</Filter>
+    </ClCompile>
+    <ClCompile Include="options_parser.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+    <ClCompile Include="pair_uint.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+    <ClCompile Include="animal_options.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animal.h">
+      <Filter>Файлы заголовков\model\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="fox.h">
+      <Filter>Файлы заголовков\model\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="rabbit.h">
+      <Filter>Файлы заголовков\model\animal</Filter>
+    </ClInclude>
+    <ClInclude Include="game_field.h">
+      <Filter>Файлы заголовков\view</Filter>
+    </ClInclude>
+    <ClInclude Include="options_parser.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="pair_uint.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="direction.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="animal_options.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="animal_type.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="source.txt">
+      <Filter>Файлы заголовков\data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
