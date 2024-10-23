@@ -8,7 +8,6 @@ namespace data {
 	public:
 		unsigned int x, y;
 
-		PairUint() = default;
 		PairUint(unsigned int x = 0u, unsigned int y = 0u);
 
 		bool operator==(const PairUint& other) const;

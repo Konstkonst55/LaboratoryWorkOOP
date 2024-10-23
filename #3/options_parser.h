@@ -13,7 +13,6 @@ namespace data {
 		std::string _filePath;
 
 	public:
-		OptionsParser() = default;
 		OptionsParser(const std::string& path = "");
 
 		void Parse(std::vector<AnimalOptions>& animals, PairUint& size, unsigned int& turns);

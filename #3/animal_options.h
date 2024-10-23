@@ -16,7 +16,6 @@ namespace data {
 		AnimalType _type;
 	
 	public:
-		AnimalOptions() = default;
 		AnimalOptions(PairUint pos = { 0u, 0u }, Direction dir = Direction::Right, unsigned int stab = 0u, AnimalType type = AnimalType::Rabbit);
 
 		PairUint GetPosition() const;

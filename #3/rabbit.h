@@ -15,7 +15,7 @@ namespace model {
 
 		public:
 			Rabbit() = default;
-			Rabbit(const data::PairUint& pos, data::Direction dir, unsigned int stab, unsigned int order);
+			Rabbit(const data::PairUint& pos = { 0u, 0u }, data::Direction dir = data::Direction::Right, unsigned int stab = 0u, unsigned int order = 0u);
 
 			void Move(const data::PairUint& fieldSize) override;
 			bool CanReproduce() override;

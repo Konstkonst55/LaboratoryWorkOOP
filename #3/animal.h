@@ -23,7 +23,6 @@ namespace model {
 			bool _isAlive;
 
 		public:
-			Animal() = default;
 			Animal(const data::PairUint& pos = { 0u, 0u }, data::Direction dir = data::Direction::Right, unsigned int stab = 0u, unsigned int maxAge = 10u, unsigned int step = 1u, char symbol = '0', unsigned int order = 0u);
 			virtual ~Animal() = default;
 
